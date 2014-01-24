@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23E8D8F11891DED3008E38F2 /* grados.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23E8D8F01891DED3008E38F2 /* grados.cpp */; };
-		23E8D8F31891DED3008E38F2 /* tarea_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23E8D8F21891DED3008E38F2 /* tarea_1.1 */; };
+		2314DE2A1891E9840087FAC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2314DE291891E9840087FAC3 /* main.cpp */; };
+		2314DE2C1891E9840087FAC3 /* perimetros.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2314DE2B1891E9840087FAC3 /* perimetros.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		23E8D8EB1891DED3008E38F2 /* CopyFiles */ = {
+		2314DE241891E9840087FAC3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				23E8D8F31891DED3008E38F2 /* tarea_1.1 in CopyFiles */,
+				2314DE2C1891E9840087FAC3 /* perimetros.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		23E8D8ED1891DED3008E38F2 /* tarea_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tarea_1; sourceTree = BUILT_PRODUCTS_DIR; };
-		23E8D8F01891DED3008E38F2 /* grados.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grados.cpp; sourceTree = "<group>"; };
-		23E8D8F21891DED3008E38F2 /* tarea_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tarea_1.1; sourceTree = "<group>"; };
+		2314DE261891E9840087FAC3 /* perimetros */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perimetros; sourceTree = BUILT_PRODUCTS_DIR; };
+		2314DE291891E9840087FAC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2314DE2B1891E9840087FAC3 /* perimetros.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = perimetros.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23E8D8EA1891DED3008E38F2 /* Frameworks */ = {
+		2314DE231891E9840087FAC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23E8D8E41891DED3008E38F2 = {
+		2314DE1D1891E9840087FAC3 = {
 			isa = PBXGroup;
 			children = (
-				23E8D8EF1891DED3008E38F2 /* tarea_1 */,
-				23E8D8EE1891DED3008E38F2 /* Products */,
+				2314DE281891E9840087FAC3 /* perimetros */,
+				2314DE271891E9840087FAC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		23E8D8EE1891DED3008E38F2 /* Products */ = {
+		2314DE271891E9840087FAC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23E8D8ED1891DED3008E38F2 /* tarea_1 */,
+				2314DE261891E9840087FAC3 /* perimetros */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23E8D8EF1891DED3008E38F2 /* tarea_1 */ = {
+		2314DE281891E9840087FAC3 /* perimetros */ = {
 			isa = PBXGroup;
 			children = (
-				23E8D8F01891DED3008E38F2 /* grados.cpp */,
-				23E8D8F21891DED3008E38F2 /* tarea_1.1 */,
+				2314DE291891E9840087FAC3 /* main.cpp */,
+				2314DE2B1891E9840087FAC3 /* perimetros.1 */,
 			);
-			path = tarea_1;
+			path = perimetros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23E8D8EC1891DED3008E38F2 /* tarea_1 */ = {
+		2314DE251891E9840087FAC3 /* perimetros */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23E8D8F61891DED3008E38F2 /* Build configuration list for PBXNativeTarget "tarea_1" */;
+			buildConfigurationList = 2314DE2F1891E9840087FAC3 /* Build configuration list for PBXNativeTarget "perimetros" */;
 			buildPhases = (
-				23E8D8E91891DED3008E38F2 /* Sources */,
-				23E8D8EA1891DED3008E38F2 /* Frameworks */,
-				23E8D8EB1891DED3008E38F2 /* CopyFiles */,
+				2314DE221891E9840087FAC3 /* Sources */,
+				2314DE231891E9840087FAC3 /* Frameworks */,
+				2314DE241891E9840087FAC3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = tarea_1;
-			productName = tarea_1;
-			productReference = 23E8D8ED1891DED3008E38F2 /* tarea_1 */;
+			name = perimetros;
+			productName = perimetros;
+			productReference = 2314DE261891E9840087FAC3 /* perimetros */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		23E8D8E51891DED3008E38F2 /* Project object */ = {
+		2314DE1E1891E9840087FAC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Manuel Escobar";
 			};
-			buildConfigurationList = 23E8D8E81891DED3008E38F2 /* Build configuration list for PBXProject "tarea_1" */;
+			buildConfigurationList = 2314DE211891E9840087FAC3 /* Build configuration list for PBXProject "perimetros" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 23E8D8E41891DED3008E38F2;
-			productRefGroup = 23E8D8EE1891DED3008E38F2 /* Products */;
+			mainGroup = 2314DE1D1891E9840087FAC3;
+			productRefGroup = 2314DE271891E9840087FAC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23E8D8EC1891DED3008E38F2 /* tarea_1 */,
+				2314DE251891E9840087FAC3 /* perimetros */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23E8D8E91891DED3008E38F2 /* Sources */ = {
+		2314DE221891E9840087FAC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E8D8F11891DED3008E38F2 /* grados.cpp in Sources */,
+				2314DE2A1891E9840087FAC3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		23E8D8F41891DED3008E38F2 /* Debug */ = {
+		2314DE2D1891E9840087FAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -161,7 +161,7 @@
 			};
 			name = Debug;
 		};
-		23E8D8F51891DED3008E38F2 /* Release */ = {
+		2314DE2E1891E9840087FAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,14 +192,14 @@
 			};
 			name = Release;
 		};
-		23E8D8F71891DED3008E38F2 /* Debug */ = {
+		2314DE301891E9840087FAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		23E8D8F81891DED3008E38F2 /* Release */ = {
+		2314DE311891E9840087FAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -209,25 +209,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23E8D8E81891DED3008E38F2 /* Build configuration list for PBXProject "tarea_1" */ = {
+		2314DE211891E9840087FAC3 /* Build configuration list for PBXProject "perimetros" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23E8D8F41891DED3008E38F2 /* Debug */,
-				23E8D8F51891DED3008E38F2 /* Release */,
+				2314DE2D1891E9840087FAC3 /* Debug */,
+				2314DE2E1891E9840087FAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23E8D8F61891DED3008E38F2 /* Build configuration list for PBXNativeTarget "tarea_1" */ = {
+		2314DE2F1891E9840087FAC3 /* Build configuration list for PBXNativeTarget "perimetros" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23E8D8F71891DED3008E38F2 /* Debug */,
-				23E8D8F81891DED3008E38F2 /* Release */,
+				2314DE301891E9840087FAC3 /* Debug */,
+				2314DE311891E9840087FAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 23E8D8E51891DED3008E38F2 /* Project object */;
+	rootObject = 2314DE1E1891E9840087FAC3 /* Project object */;
 }

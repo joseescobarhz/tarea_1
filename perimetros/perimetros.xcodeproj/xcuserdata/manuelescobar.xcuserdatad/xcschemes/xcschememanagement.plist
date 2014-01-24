@@ -4,12 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>perimetro.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>tarea_1.xcscheme</key>
+		<key>perimetros.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -17,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>23E8D8EC1891DED3008E38F2</key>
+		<key>2314DE251891E9840087FAC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

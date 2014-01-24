@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  tarea_1
+//  perimetros
 //
 //  Created by Manuel Escobar on 1/23/14.
 //  Copyright (c) 2014 Manuel Escobar. All rights reserved.
